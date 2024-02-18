@@ -1,5 +1,5 @@
 """
-ASGI config for apteka project.
+ASGI config for apteka1.project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
