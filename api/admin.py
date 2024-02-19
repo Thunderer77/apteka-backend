@@ -13,6 +13,7 @@ class ChecksAdmin(admin.ModelAdmin):
 class MedicineAdmin(admin.ModelAdmin):
     list_display = ('id', 'med_n', 'dose', 'price', 'until', 'dev', 'effect', 'others', 'amount')
 
+
 @admin.register(Recipes)
 class RecipesAdmin(admin.ModelAdmin):
-    list_display = ('id', 'pat_id', 'm_id', 'r_dose', 'since')
+    list_display = ('id', 'pat_id', 'm_id', 'r_dose', 'since', 'until')
