@@ -33,7 +33,7 @@ class Checks(models.Model):
 
 class Medicine(models.Model):
     med_n = models.CharField(max_length=30, verbose_name="Название")
-    dose = models.IntegerField(verbose_name="Дозировка")
+    dose = models.IntegerField(verbose_name="Дозировка", )
     price = models.DecimalField(max_digits=10, decimal_places=3, verbose_name="Цена")
     until = models.DateField(verbose_name="Действительно до")
     dev = models.CharField(max_length=30, verbose_name="Производитель")
